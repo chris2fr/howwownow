@@ -1,0 +1,15 @@
+defaults:
+  -
+    scope:
+      path: _posts/en
+    values:
+      layout: default
+      lang: en
+  -
+    scope:
+      path: _posts/fr
+    values:
+      layout: default
+      lang: fr
+permalink: /:lang/:title/
+timezone: Europe/Paris
